@@ -2,7 +2,7 @@
 # informando se o valor retornado por elas vai ser ou não formatado pela função moeda(), desenvolvida no desafio 108.
 
 
-import Exercicio_0109_moeda
+import Exercicio_109_moeda
 
 dinheiro = float(input('Digite um valor: '))
 print(f'O valor {Exercicio_0109_moeda.moeda(dinheiro)} com aumento de 10% é: {Exercicio_0109_moeda.aumentar(dinheiro, True)}')
